@@ -14,9 +14,7 @@ const Header = () => {
     return (
         <div className="header">
                 Header
-            <img
-                style={logoStyle}
-            src={logo}/>
+            <img alt="" style={logoStyle} src={logo}/>
             <Menu/>
         </div>
     );
