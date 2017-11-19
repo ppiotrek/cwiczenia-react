@@ -1,13 +1,14 @@
 import React from 'react';
+import {Nav, NavItem} from 'react-bootstrap'
 
 const Menu = () => {
     return (
         <div>
-            Menu
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+            <Nav bsStyle="pills" activeKey={0} >
+                <NavItem eventKey={0}>Home</NavItem>
+                <NavItem eventKey={1}>Profile</NavItem>
+                <NavItem eventKey={2}>Dashboard</NavItem>
+            </Nav>
 
         </div>
     );
