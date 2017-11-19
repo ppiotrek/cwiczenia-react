@@ -12,15 +12,13 @@ const App = () => {
         <Router>
             <div>
             <Header/>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">Profile</Link></li>
-                    <li><Link to="/">Dashboard</Link></li>
-                </ul>
 
                 <Route exact path="/" component={Home}/>
                 <Route path="/profile" component={Profile}/>
                 <Route path="/dashboard" component={Dashboard}/>
+
+
+
 
             <Footer/>
             </div>
