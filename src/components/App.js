@@ -5,6 +5,7 @@ import Home from './Home';
 import Profile from './Profile';
 import Dashboard from './Dashboard';
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
+import Counter from './Counter';
 
 const App = () => {
     return (
@@ -16,11 +17,9 @@ const App = () => {
                 <Route exact path="/" component={Home}/>
                 <Route path="/profile" component={Profile}/>
                 <Route path="/dashboard" component={Dashboard}/>
+                <Route path="/counter" component={Counter}/>
 
-
-
-
-            <Footer/>
+                <Footer/>
             </div>
         </Router>
 
